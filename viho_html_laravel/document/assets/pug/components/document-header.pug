@@ -1,0 +1,39 @@
+div
+  nav.navbar.navbar-expand-lg
+     .container-fluid.custom-container
+        .row.w-100
+          .col-md-3.col-4
+            a.navbar-brand(href='index.html')                    
+                img(src='../assets/images/logo/logo.png'  alt="")                       
+          .col-lg-6.col-2  
+            button.navbar-toggler.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+              i.fa.fa-bars    
+            #navbarSupportedContent.collapse.navbar-collapse
+              ul.navbar-nav.menu
+                li.nav-item.active
+                  a.nav-link(href='https://1.envato.market/3GVzd' role='button' aria-haspopup='true' aria-expanded='false' target='_blank') Purchase
+                li.nav-item
+                  a.nav-link(href='https://pixelstrap.freshdesk.com/' role='button' aria-haspopup='true' aria-expanded='false' target='_blank') Support
+                li.nav-item
+                  a.nav-link(href='http://admin.pixelstrap.com/viho/theme/landing-page.html' role='button' aria-haspopup='true' aria-expanded='false' target='_blank')
+                    | Demo
+                
+                li.nav-item
+                  a.nav-link(href='http://admin.pixelstrap.com/viho/theme/landing-page.html#framework' role='button'  aria-haspopup='true' aria-expanded='false' target='_blank')
+                    | Feature              
+          .col-lg-3.col-6
+
+            ul.nav-right
+              li
+                .d-lg-none.d-block
+                  a.toggle-sidebar(href="#")
+                    i.fa.fa-sliders
+              li
+                .btn-group
+                  a.decrease.btn.btn-doc(href='#' title='Decrease font size') A-
+                  a.reset.btn.btn-doc(href='#' title='Default font size') A
+                  a.increase.btn.btn-doc(href='#' title='Increase font size') A+
+              li
+                a.btn.btn-dark.mode(href='#' title='Dark')
+                    i.fa.fa-moon-o
+                    span Dark
